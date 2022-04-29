@@ -20,7 +20,7 @@ body::before{
   left: 0;
   width: 100%;
   height: 100%;
-  background: #f8fdff;
+  background: #00f2c1;
   clip-path: circle(40% at right 63.3%);
 }
 
