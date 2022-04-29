@@ -1,6 +1,6 @@
 <?php
 require "./config.php";
-if($_REQUEST['type']=='json'){
+if(isset($_REQUEST['type'])==TRUE and $_REQUEST['type']=='json'){
     require "./json.php";
 }else{
     if($lang=="cn"){
